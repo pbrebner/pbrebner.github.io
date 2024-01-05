@@ -1,10 +1,18 @@
 function Nav() {
     return (
         <div className="headerNav">
-            <a href="">About</a>
-            <a href="">Projects</a>
-            <a href="">Skills</a>
-            <a href="">Contact</a>
+            <a href="#about" className="navLink">
+                About
+            </a>
+            <a href="#projects" className="navLink">
+                Projects
+            </a>
+            <a href="#skills" className="navLink">
+                Skills
+            </a>
+            <a href="#contact" className="navLink">
+                Contact
+            </a>
         </div>
     );
 }
