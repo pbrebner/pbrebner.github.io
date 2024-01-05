@@ -1,0 +1,158 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeSection {
+    max-width: 1000px;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+/* Styling for Intro Section */
+
+.intro {
+    padding: 30px;
+    height: 92vh;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro p {
+    max-width: 500px;
+
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/* Styling for About Section */
+
+.about {
+    padding: 30px;
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about p {
+    font-size: 1.6rem;
+}
+
+/* Styling for Projects Section */
+
+.projects {
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projectContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.projectImage {
+    background-color: aliceblue;
+    width: 800px;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+}
+
+.projectDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.projectTags {
+    display: flex;
+    gap: 5px;
+}
+
+.projectTag {
+    padding: 2px 8px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.projectDetails {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.projectLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.projectLink {
+    color: black;
+}
+
+/* Styling for Skills Section */
+
+.skills {
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skillOuterContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.skillCategory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.skillHead {
+    font-size: 1.4rem;
+}
+
+.skillContainer {
+    padding: 20px;
+    font-size: 1.4rem;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    display: grid;
+    gap: 20px;
+}
+
+/* Styling for Contact Section */
+
+.contact {
+    padding: 30px;
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact p {
+    font-size: 1.6rem;
+}
