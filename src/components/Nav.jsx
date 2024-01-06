@@ -1,19 +1,19 @@
-function Nav() {
+function Nav({ closeBurger }) {
     return (
-        <div className="headerNav">
-            <a href="#about" className="navLink">
+        <>
+            <a href="#about" className="navLink" onClick={closeBurger}>
                 About
             </a>
-            <a href="#projects" className="navLink">
+            <a href="#projects" className="navLink" onClick={closeBurger}>
                 Projects
             </a>
-            <a href="#skills" className="navLink">
+            <a href="#skills" className="navLink" onClick={closeBurger}>
                 Skills
             </a>
-            <a href="#contact" className="navLink">
+            <a href="#contact" className="navLink" onClick={closeBurger}>
                 Contact
             </a>
-        </div>
+        </>
     );
 }
 

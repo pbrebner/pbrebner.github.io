@@ -3,8 +3,19 @@
     background-color: antiquewhite;
 
     display: flex;
+    justify-content: center;
+
+    /*position: sticky;
+    top: 0;*/
+}
+
+.headerInnerContainer {
+    display: flex;
     align-items: center;
     justify-content: space-between;
+
+    max-width: 1000px;
+    width: 100%;
 }
 
 .headerNav {
@@ -15,4 +26,38 @@
 .navLink {
     color: black;
     font-size: 1.2rem;
+}
+
+.burgerBtn {
+    padding: 8px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.burgerLine {
+    background-color: grey;
+    height: 3px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .headerNav {
+        display: none;
+    }
+
+    .headerNav.burgerOpen {
+        display: flex;
+    }
+
+    .headerName.burgerOpen {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .burgerBtn {
+        display: none;
+    }
 }
