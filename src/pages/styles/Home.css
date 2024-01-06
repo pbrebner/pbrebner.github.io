@@ -66,7 +66,7 @@ h2 {
 .aboutContent p {
     font-size: 1.6rem;
     text-align: center;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 @media (min-width: 800px) {
