@@ -6,6 +6,9 @@
 
 .homeSection {
     max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
@@ -42,8 +45,34 @@ h2 {
     gap: 20px;
 }
 
-.about p {
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutImage {
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutContent p {
     font-size: 1.6rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+@media (min-width: 800px) {
+    .aboutContent {
+        flex-direction: row;
+    }
 }
 
 /* Styling for Projects Section */
@@ -53,57 +82,7 @@ h2 {
 
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-
-.projectContainer {
-    display: flex;
-    gap: 20px;
-}
-
-.projectImage {
-    background-color: aliceblue;
-    width: 800px;
-    height: 400px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 20px;
-}
-
-.projectDetails {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.projectTags {
-    display: flex;
-    gap: 5px;
-}
-
-.projectTag {
-    padding: 2px 8px;
-    border-radius: 10px;
-    background-color: aquamarine;
-}
-
-.projectDetails {
-    font-size: 1.1rem;
-    text-align: center;
-}
-
-.projectLinks {
-    display: flex;
-    gap: 10px;
-}
-
-.projectLink {
-    color: black;
+    gap: 60px;
 }
 
 /* Styling for Skills Section */
@@ -118,6 +97,7 @@ h2 {
 
 .skillOuterContainer {
     display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
@@ -133,26 +113,85 @@ h2 {
 }
 
 .skillContainer {
-    padding: 20px;
+    padding: 30px;
     font-size: 1.4rem;
     border: 1px solid black;
     border-radius: 5px;
 
+    height: 100%;
+    width: 100%;
+
     display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.skill i {
+    font-size: 2rem;
+}
+
+@media (min-width: 800px) {
+    .skillOuterContainer {
+        flex-direction: row;
+    }
 }
 
 /* Styling for Contact Section */
 
 .contact {
-    padding: 30px;
+    padding: 40px;
     min-height: 300px;
 
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
-.contact p {
+.contactContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.contactContent p,
+.contactEmail {
     font-size: 1.6rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+.contactOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contactOptions p {
+    font-size: 1.2rem;
+}
+
+.emailOption,
+.socialOption {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.socialLinks a {
+    font-size: 2.4rem;
+    color: black;
 }
