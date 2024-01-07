@@ -1,9 +1,13 @@
 .footer {
     padding: 30px;
-    background-color: antiquewhite;
+    background-color: var(--dark-alt);
 
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
+}
+
+.footer div {
+    color: var(--light-text);
 }

@@ -27,6 +27,7 @@
 }
 
 .projectDetails {
+    color: var(--light-text);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +45,7 @@
 .projectTag {
     padding: 2px 8px;
     border-radius: 10px;
-    background-color: aquamarine;
+    background-color: var(--dark-accent);
 }
 
 .projectDetails {
@@ -58,7 +59,7 @@
 }
 
 .projectLink {
-    color: black;
+    color: var(--light-text);
 }
 
 @media (min-width: 800px) {

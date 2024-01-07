@@ -1,6 +1,6 @@
 .header {
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: var(--dark-alt);
 
     display: flex;
     justify-content: center;
@@ -14,17 +14,21 @@
     align-items: center;
     justify-content: space-between;
 
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
+}
+
+.headerName {
+    color: var(--light-text);
 }
 
 .headerNav {
     display: flex;
-    gap: 30px;
+    gap: 25px;
 }
 
 .navLink {
-    color: black;
+    color: var(--light-text);
     font-size: 1.2rem;
 }
 
