@@ -7,3 +7,13 @@
 html {
     scroll-behavior: smooth;
 }
+
+:root {
+    --dark-alt: rgb(27, 27, 27);
+    --dark-accent: rgb(72, 75, 89);
+    --light-text: rgb(248, 239, 212);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
