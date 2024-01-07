@@ -1,18 +1,45 @@
 .home {
+    background-color: var(--dark-alt);
+
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.homeInnerContainer {
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .homeSection {
-    max-width: 1000px;
     display: flex;
     flex-direction: column;
+}
+
+.sectionHead {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 h2 {
+    color: var(--light-text);
     font-size: 2.4rem;
+}
+
+.hl {
+    height: 1px;
+    width: 100%;
+    background-color: var(--light-text);
+}
+
+.sectionHl {
+    height: 1px;
+    flex: 1;
+    background-color: var(--light-text);
 }
 
 /* Styling for Intro Section */
@@ -28,6 +55,7 @@ h2 {
 }
 
 .intro p {
+    color: var(--light-text);
     max-width: 500px;
 
     font-size: 3rem;
@@ -38,7 +66,7 @@ h2 {
 
 .about {
     padding: 30px;
-    min-height: 300px;
+    min-height: 400px;
 
     display: flex;
     flex-direction: column;
@@ -64,6 +92,8 @@ h2 {
 }
 
 .aboutContent p {
+    color: var(--light-text);
+
     font-size: 1.6rem;
     text-align: center;
     max-width: 500px;
@@ -72,6 +102,7 @@ h2 {
 @media (min-width: 800px) {
     .aboutContent {
         flex-direction: row;
+        justify-content: center;
     }
 }
 
@@ -92,12 +123,15 @@ h2 {
 
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 .skillOuterContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
     gap: 30px;
 }
 
@@ -105,18 +139,21 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
 }
 
 .skillHead {
+    color: var(--light-text);
     font-size: 1.4rem;
 }
 
 .skillContainer {
+    background-color: black;
+
     padding: 30px;
     font-size: 1.4rem;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 20px;
 
     height: 100%;
     width: 100%;
@@ -127,6 +164,7 @@ h2 {
 }
 
 .skill {
+    color: var(--light-text);
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -140,21 +178,25 @@ h2 {
 @media (min-width: 800px) {
     .skillOuterContainer {
         flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+        gap: 10px;
     }
 }
 
 /* Styling for Contact Section */
 
 .contact {
-    padding: 40px;
+    padding: 30px;
     min-height: 300px;
 
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
 }
 
 .contactContent {
+    color: var(--light-text);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,5 +235,5 @@ h2 {
 
 .socialLinks a {
     font-size: 2.4rem;
-    color: black;
+    color: var(--light-text);
 }
