@@ -192,10 +192,16 @@ function Home() {
                             <div className="socialOption">
                                 <p>Reach me through social media</p>
                                 <div className="socialLinks">
-                                    <a href="">
+                                    <a
+                                        href="https://github.com/pbrebner"
+                                        target="_blank"
+                                    >
                                         <i className="fa-brands fa-github"></i>
                                     </a>
-                                    <a href="">
+                                    <a
+                                        href="https://www.linkedin.com/in/patrick-brebner/"
+                                        target="_blank"
+                                    >
                                         <i className="fa-brands fa-linkedin"></i>
                                     </a>
                                 </div>
