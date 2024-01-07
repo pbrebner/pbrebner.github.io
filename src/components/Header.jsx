@@ -39,9 +39,9 @@ function Header() {
                             burgerOpen ? "burgerOpen" : ""
                         }`}
                     >
-                        <div className="burgerLine"></div>
-                        <div className="burgerLine"></div>
-                        <div className="burgerLine"></div>
+                        <div className="burgerLine lineOne"></div>
+                        <div className="burgerLine lineTwo"></div>
+                        <div className="burgerLine lineThree"></div>
                     </button>
                 </div>
             </header>
