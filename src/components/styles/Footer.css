@@ -1,5 +1,5 @@
 .footer {
-    padding: 30px;
+    padding: 20px 10px;
     background-color: var(--dark-alt);
 
     display: flex;
@@ -10,4 +10,24 @@
 
 .footer div {
     color: var(--light-text);
+    font-size: 1rem;
+}
+
+.optText {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .footer {
+        padding: 30px;
+    }
+
+    .optText {
+        display: inline;
+    }
+
+    .footer div {
+        color: var(--light-text);
+        font-size: 1.2rem;
+    }
 }

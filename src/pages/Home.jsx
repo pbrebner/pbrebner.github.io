@@ -61,7 +61,7 @@ function Home() {
                 <section id="projects" className="projects homeSection">
                     <div className="sectionHead">
                         <div className="sectionHl"></div>
-                        <h2>Featured Projects</h2>
+                        <h2>Projects</h2>
                         <div className="sectionHl"></div>
                     </div>
 
@@ -115,7 +115,7 @@ function Home() {
                                     <div>React</div>
                                 </div>
                                 <div className="skill">
-                                    <i class="fa-solid fa-vial-circle-check"></i>
+                                    <i className="fa-solid fa-vial-circle-check"></i>
                                     <div>Jest</div>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@ function Home() {
                                     <div>Javascript</div>
                                 </div>
                                 <div className="skill">
-                                    <i class="fa-solid fa-database"></i>
+                                    <i className="fa-solid fa-database"></i>
                                     <div>MongoDB</div>
                                 </div>
                                 <div className="skill">

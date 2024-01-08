@@ -84,3 +84,9 @@
         grid-template-areas: "content image";
     }
 }
+
+@media (max-width: 600px) {
+    .projectImage.secondaryImage {
+        display: none;
+    }
+}

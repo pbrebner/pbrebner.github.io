@@ -8,8 +8,12 @@ function ProjectContainer({ reversed, project }) {
                     <div className="projectDetails">
                         <h3 className="projectTitle">{project.title}</h3>
                         <div className="projectTags">
-                            {project.tags.map((tag) => {
-                                return <p className="projectTag">{tag}</p>;
+                            {project.tags.map((tag, index) => {
+                                return (
+                                    <p key={index} className="projectTag">
+                                        {tag}
+                                    </p>
+                                );
                             })}
                         </div>
                         <p className="projectInfo">{project.description}</p>
@@ -23,8 +27,12 @@ function ProjectContainer({ reversed, project }) {
                         </div>
                     </div>
                     <div className="projectImages">
-                        <div className="projectImage">Project Image</div>
-                        <div className="projectImage">Project Image</div>
+                        <div className="projectImage mainImage">
+                            Project Image
+                        </div>
+                        <div className="projectImage secondaryImage">
+                            Project Image
+                        </div>
                     </div>
                 </div>
             );
@@ -32,14 +40,22 @@ function ProjectContainer({ reversed, project }) {
             return (
                 <div className="projectContainer">
                     <div className="projectImages">
-                        <div className="projectImage">Project Image</div>
-                        <div className="projectImage">Project Image</div>
+                        <div className="projectImage mainImage">
+                            Project Image
+                        </div>
+                        <div className="projectImage secondaryImage">
+                            Project Image
+                        </div>
                     </div>
                     <div className="projectDetails">
                         <h3 className="projectTitle">{project.title}</h3>
                         <div className="projectTags">
-                            {project.tags.map((tag) => {
-                                return <p className="projectTag">{tag}</p>;
+                            {project.tags.map((tag, index) => {
+                                return (
+                                    <p key={index} className="projectTag">
+                                        {tag}
+                                    </p>
+                                );
                             })}
                         </div>
                         <p className="projectInfo">{project.description}</p>
