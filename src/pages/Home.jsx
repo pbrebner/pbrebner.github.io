@@ -1,35 +1,10 @@
 import ProjectContainer from "../components/ProjectContainer";
 import "./styles/Home.css";
 
-function Home() {
-    const projectList = [
-        {
-            image: "",
-            title: "Blog Website",
-            tags: ["React", "NodeJs"],
-            description:
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos magni fugit eius quasi assumenda odit quidem sunt, explicabo amet modi quia dolor facere dolores error earum sit adipisci mollitia officia.",
-            website: "",
-            github: "",
-        },
-        {
-            title: "Blog Website",
-            tags: ["React", "NodeJs"],
-            description:
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos magni fugit eius quasi assumenda odit quidem sunt, explicabo amet modi quia dolor facere dolores error earum sit adipisci mollitia officia.",
-            website: "",
-            github: "",
-        },
-        {
-            title: "Blog Website",
-            tags: ["React", "NodeJs"],
-            description:
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos magni fugit eius quasi assumenda odit quidem sunt, explicabo amet modi quia dolor facere dolores error earum sit adipisci mollitia officia.",
-            website: "",
-            github: "",
-        },
-    ];
+import projectList from "../assets/data/projectInfo";
+import profile from "../assets/images/profile.jpg";
 
+function Home() {
     return (
         <div className="home">
             <div className="homeInnerContainer">
@@ -48,7 +23,11 @@ function Home() {
                     </div>
 
                     <div className="aboutContent">
-                        <div className="aboutImage">Profile Image</div>
+                        <img
+                            src={profile}
+                            alt="profile"
+                            className="aboutImage"
+                        />
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Beatae cumque cum alias suscipit eum at
@@ -65,7 +44,7 @@ function Home() {
                         <div className="sectionHl"></div>
                     </div>
 
-                    <div className="projects">
+                    <div className="projectsContainer">
                         {projectList.map((project, index) => {
                             if (index % 2) {
                                 return (
