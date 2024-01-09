@@ -28,13 +28,18 @@ function Home() {
                             alt="profile"
                             className="aboutImage"
                         />
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Beatae cumque cum alias suscipit eum at
-                            necessitatibus, quo quis voluptas nulla iure,
-                            aliquid consequatur quidem ratione vel magnam
-                            delectus sequi et.{" "}
-                        </p>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Beatae cumque cum alias
+                                suscipit eum at necessitatibus, quo quis
+                                voluptas nulla iure, aliquid consequatur quidem
+                                ratione vel magnam delectus sequi et.{" "}
+                            </p>
+                            <a href="#contact" className="aboutLink">
+                                Say Hello
+                            </a>
+                        </div>
                     </div>
                 </section>
                 <section id="projects" className="projects homeSection">
