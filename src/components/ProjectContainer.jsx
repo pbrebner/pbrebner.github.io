@@ -18,21 +18,37 @@ function ProjectContainer({ reversed, project }) {
                         </div>
                         <p className="projectInfo">{project.description}</p>
                         <div className="projectLinks">
-                            <a href="" className="projectLink">
-                                Review the Code
-                            </a>
-                            <a href="" className="projectLink">
-                                See it Live
-                            </a>
+                            {project.github && (
+                                <a
+                                    href={project.github}
+                                    className="projectLink"
+                                >
+                                    Review the Code
+                                </a>
+                            )}
+                            {project.website && (
+                                <a
+                                    href={project.website}
+                                    className="projectLink"
+                                >
+                                    See it Live
+                                </a>
+                            )}
                         </div>
                     </div>
                     <div className="projectImages">
-                        <div className="projectImage mainImage">
-                            Project Image
-                        </div>
-                        <div className="projectImage secondaryImage">
-                            Project Image
-                        </div>
+                        <img
+                            src={project.mainImage}
+                            alt="project image"
+                            className="projectImage mainImage"
+                        />
+                        {project.secondaryImage && (
+                            <img
+                                src={project.secondaryImage}
+                                alt="project image"
+                                className="projectImage secondaryImage"
+                            />
+                        )}
                     </div>
                 </div>
             );
@@ -40,11 +56,19 @@ function ProjectContainer({ reversed, project }) {
             return (
                 <div className="projectContainer">
                     <div className="projectImages">
-                        <div className="projectImage mainImage">
-                            Project Image
-                        </div>
-                        <div className="projectImage secondaryImage">
-                            Project Image
+                        <div className="projectImages">
+                            <img
+                                src={project.mainImage}
+                                alt="project image"
+                                className="projectImage mainImage"
+                            />
+                            {project.secondaryImage && (
+                                <img
+                                    src={project.secondaryImage}
+                                    alt="project image"
+                                    className="projectImage secondaryImage"
+                                />
+                            )}
                         </div>
                     </div>
                     <div className="projectDetails">
@@ -60,12 +84,22 @@ function ProjectContainer({ reversed, project }) {
                         </div>
                         <p className="projectInfo">{project.description}</p>
                         <div className="projectLinks">
-                            <a href="" className="projectLink">
-                                Review the Code
-                            </a>
-                            <a href="" className="projectLink">
-                                See it Live
-                            </a>
+                            {project.github && (
+                                <a
+                                    href={project.github}
+                                    className="projectLink"
+                                >
+                                    Review the Code
+                                </a>
+                            )}
+                            {project.website && (
+                                <a
+                                    href={project.website}
+                                    className="projectLink"
+                                >
+                                    See it Live
+                                </a>
+                            )}
                         </div>
                     </div>
                 </div>
