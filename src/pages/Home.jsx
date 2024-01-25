@@ -30,11 +30,12 @@ function Home() {
                         />
                         <div>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Beatae cumque cum alias
-                                suscipit eum at necessitatibus, quo quis
-                                voluptas nulla iure, aliquid consequatur quidem
-                                ratione vel magnam delectus sequi et.{" "}
+                                Deeply invested in the life-long learning
+                                mentality, I'm currently expanding my skills as
+                                a full-stack developer. Along with my background
+                                in biomedical engineering and data analysis, I'm
+                                well acquainted to bringing out solutions to
+                                complex problems.
                             </p>
                             <a href="#contact" className="aboutLink">
                                 Say Hello
@@ -83,23 +84,23 @@ function Home() {
                             <h3 className="skillHead">Front-end</h3>
                             <div className="skillContainer">
                                 <div className="skill">
-                                    <i className="fa-brands fa-html5"></i>
+                                    <i className="devicon-html5-plain"></i>
                                     <div>HTML</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="fa-brands fa-css3"></i>
+                                    <i className="devicon-css3-plain"></i>
                                     <div>CSS</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="fa-brands fa-js"></i>
+                                    <i className="devicon-javascript-plain"></i>
                                     <div>Javascript</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="fa-brands fa-react"></i>
+                                    <i className="devicon-react-original"></i>
                                     <div>React</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="fa-solid fa-vial-circle-check"></i>
+                                    <i className="devicon-jest-plain"></i>
                                     <div>Jest</div>
                                 </div>
                             </div>
@@ -108,23 +109,26 @@ function Home() {
                             <h3 className="skillHead">Back-end</h3>
                             <div className="skillContainer">
                                 <div className="skill">
-                                    <i className="fa-brands fa-node"></i>
+                                    <i className="devicon-nodejs-plain"></i>
                                     <div>NodeJs</div>
                                 </div>
                                 <div className="skill">
-                                    <div>ex</div>
+                                    <i className="devicon-express-original"></i>
                                     <div>Express</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="fa-brands fa-js"></i>
+                                    <i className="devicon-javascript-plain"></i>
                                     <div>Javascript</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="fa-solid fa-database"></i>
+                                    <i className="devicon-mongodb-plain"></i>
                                     <div>MongoDB</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="fa-solid fa-code"></i>
+                                    <img
+                                        src="/src/assets/icons/pug.svg"
+                                        alt="Pug"
+                                    />
                                     <div>Pug</div>
                                 </div>
                             </div>
@@ -133,20 +137,28 @@ function Home() {
                             <h3 className="skillHead">Miscellaneous</h3>
                             <div className="skillContainer">
                                 <div className="skill">
-                                    <i className="fa-brands fa-git-alt"></i>
+                                    <i className="devicon-git-plain"></i>
                                     <div>Git</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="fa-brands fa-github"></i>
+                                    <i className="devicon-github-original"></i>
                                     <div>Github</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="fa-brands fa-python"></i>
+                                    <i className="devicon-python-plain"></i>
                                     <div>Python</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="fa-brands fa-linux"></i>
+                                    <i className="devicon-linux-plain"></i>
                                     <div>Linux</div>
+                                </div>
+                                <div className="skill">
+                                    <i className="devicon-vscode-plain"></i>
+                                    <div>VSCode</div>
+                                </div>
+                                <div className="skill">
+                                    <i className="devicon-webpack-plain"></i>
+                                    <div>Webpack</div>
                                 </div>
                             </div>
                         </div>
@@ -180,13 +192,13 @@ function Home() {
                                         href="https://github.com/pbrebner"
                                         target="_blank"
                                     >
-                                        <i className="fa-brands fa-github"></i>
+                                        <i className="devicon-github-original"></i>
                                     </a>
                                     <a
                                         href="https://www.linkedin.com/in/patrick-brebner/"
                                         target="_blank"
                                     >
-                                        <i className="fa-brands fa-linkedin"></i>
+                                        <i className="devicon-linkedin-plain"></i>
                                     </a>
                                 </div>
                             </div>
