@@ -1,5 +1,6 @@
 import ProjectContainer from "../components/ProjectContainer";
 import "./styles/Home.css";
+import pug from "../assets/icons/pug.svg";
 
 import projectList from "../assets/data/projectInfo";
 import profile from "../assets/images/profile.jpg";
@@ -125,10 +126,7 @@ function Home() {
                                     <div>MongoDB</div>
                                 </div>
                                 <div className="skill">
-                                    <img
-                                        src="/src/assets/icons/pug.svg"
-                                        alt="Pug"
-                                    />
+                                    <img src={pug} alt="Pug" />
                                     <div>Pug</div>
                                 </div>
                             </div>
