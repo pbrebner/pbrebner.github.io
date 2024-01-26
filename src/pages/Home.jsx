@@ -34,7 +34,7 @@ function Home() {
                                 Deeply invested in the life-long learning
                                 mentality, I'm currently expanding my skills as
                                 a full-stack developer. Along with my background
-                                in biomedical engineering and data analysis, I'm
+                                in biomedical engineering and data science, I'm
                                 well acquainted to bringing out solutions to
                                 complex problems.
                             </p>

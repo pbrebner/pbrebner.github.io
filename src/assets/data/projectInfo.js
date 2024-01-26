@@ -25,7 +25,7 @@ const projectList = [
         title: "Members Only Club",
         tags: ["NodeJs", "Express", "MongoDB", "Pug/Jade", "Passport"],
         description:
-            "Message board website with member only permissions created through the use of Passport",
+            "Message board website with member only permissions created through the use of Passport.",
         website: "https://members-only-deploy.fly.dev/",
         github: "https://github.com/pbrebner/members-only",
     },
@@ -35,7 +35,7 @@ const projectList = [
         title: "Weather App",
         tags: ["Javascript", "HTML/CSS", "Webpack", "API"],
         description:
-            "A weather forecast application that utilizes the open weather API to display relavent data of the searched city on a clean user interface.",
+            "A weather forecast application that utilizes the open weather API to display relevant data of the searched city on a clean user interface.",
         website: "https://pbrebner.github.io/weather-app/",
         github: "https://github.com/pbrebner/weather-app",
     },
