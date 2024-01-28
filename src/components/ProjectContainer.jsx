@@ -22,6 +22,7 @@ function ProjectContainer({ reversed, project }) {
                                 <a
                                     href={project.github}
                                     className="projectLink"
+                                    target="_blank"
                                 >
                                     Review the Code
                                 </a>
@@ -30,6 +31,7 @@ function ProjectContainer({ reversed, project }) {
                                 <a
                                     href={project.website}
                                     className="projectLink"
+                                    target="_blank"
                                 >
                                     See it Live
                                 </a>
@@ -88,6 +90,7 @@ function ProjectContainer({ reversed, project }) {
                                 <a
                                     href={project.github}
                                     className="projectLink"
+                                    target="_blank"
                                 >
                                     Review the Code
                                 </a>
@@ -96,6 +99,7 @@ function ProjectContainer({ reversed, project }) {
                                 <a
                                     href={project.website}
                                     className="projectLink"
+                                    target="_blank"
                                 >
                                     See it Live
                                 </a>
