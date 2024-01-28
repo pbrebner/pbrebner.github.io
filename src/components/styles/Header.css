@@ -25,7 +25,7 @@
 
 .headerNav {
     display: flex;
-    gap: 25px;
+    gap: 15px;
 }
 
 .navLink {
@@ -111,6 +111,10 @@
 @media (min-width: 600px) {
     .burgerBtn {
         display: none;
+    }
+
+    .headerNav {
+        gap: 25px;
     }
 
     .headerName {

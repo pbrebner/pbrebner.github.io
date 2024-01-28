@@ -13,6 +13,14 @@ function Nav({ closeBurger }) {
             <a href="#contact" className="navLink" onClick={closeBurger}>
                 Contact
             </a>
+            <a
+                href="https://drive.google.com/file/d/13Sn5gWwOMLMT0Lm3Zwh4LHTPhrdhgnsE/view?usp=sharing"
+                className="navLink"
+                target="_blank"
+                onClick={closeBurger}
+            >
+                Resume
+            </a>
         </>
     );
 }
