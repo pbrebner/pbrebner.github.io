@@ -35,7 +35,7 @@ function Home() {
                                 mentality, I'm currently expanding my skills as
                                 a full-stack developer. Along with my background
                                 in biomedical engineering and data science, I'm
-                                well acquainted to bringing out solutions to
+                                well acquainted with bringing out solutions to
                                 complex problems.
                             </p>
                             <a href="#contact" className="aboutLink">
