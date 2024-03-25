@@ -33,10 +33,12 @@ function Home() {
                             <p>
                                 Deeply invested in the life-long learning
                                 mentality, I'm currently expanding my skills as
-                                a full-stack developer. Along with my background
-                                in biomedical engineering and data science, I'm
+                                a software engineer. Along with my background in
+                                biomedical engineering and data science, I'm
                                 well acquainted with bringing out solutions to
-                                complex problems.
+                                complex problems. In my free time I enjoy
+                                spending my time outside either hiking or fly
+                                fishing.
                             </p>
                             <a href="#contact" className="aboutLink">
                                 Say Hello
@@ -128,6 +130,10 @@ function Home() {
                                 <div className="skill">
                                     <img src={pug} alt="Pug" />
                                     <div>Pug</div>
+                                </div>
+                                <div className="skill">
+                                    <i className="devicon-amazonwebservices-plain-wordmark"></i>
+                                    <div>AWS S3</div>
                                 </div>
                             </div>
                         </div>

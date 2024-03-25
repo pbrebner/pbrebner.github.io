@@ -9,7 +9,7 @@ function Footer() {
             <div>|</div>
             <div>
                 <span className="optText">Copyright</span>{" "}
-                <i className="fa-regular fa-copyright"></i> 2023
+                <i className="fa-regular fa-copyright"></i> 2024
             </div>
         </footer>
     );
