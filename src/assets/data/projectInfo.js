@@ -1,3 +1,6 @@
+import messageOne from "./projectImages/messageOne.png";
+import messageTwo from "./projectImages/messageTwo.png";
+
 import blogOne from "./projectImages/blogOne.png";
 import blogTwo from "./projectImages/blogTwo.png";
 
@@ -15,6 +18,24 @@ import textOne from "./projectImages/textClassifierOne.png";
 
 // Project Info List: Secondary Image and links are optional (Everything else is required)
 const projectList = [
+    {
+        mainImage: messageOne,
+        secondaryImage: messageTwo,
+        title: "Message App",
+        tags: [
+            "React",
+            "AWS S3",
+            "NodeJs",
+            "Express",
+            "MongoDB",
+            "JWT",
+            "Restful API Design",
+        ],
+        description:
+            "Full-stack messaging app with MongoDB database and AWS S3 for data storage. Users can update their profiles, manage friends through friend requests, send pictures/gifs in DMs, reply to specific messages, and create group chats.",
+        website: "https://pbrebner.github.io/message-client/",
+        github: "https://github.com/pbrebner/message-client",
+    },
     {
         mainImage: blogOne,
         secondaryImage: blogTwo,
