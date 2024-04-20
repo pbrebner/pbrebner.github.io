@@ -106,6 +106,10 @@ function Home() {
                                     <i className="devicon-jest-plain"></i>
                                     <div>Jest</div>
                                 </div>
+                                <div className="skill">
+                                    <i className="devicon-socketio-original"></i>
+                                    <div>Socket.io</div>
+                                </div>
                             </div>
                         </div>
                         <div className="skillCategory">
@@ -120,10 +124,6 @@ function Home() {
                                     <div>Express</div>
                                 </div>
                                 <div className="skill">
-                                    <i className="devicon-javascript-plain"></i>
-                                    <div>Javascript</div>
-                                </div>
-                                <div className="skill">
                                     <i className="devicon-mongodb-plain"></i>
                                     <div>MongoDB</div>
                                 </div>
@@ -134,6 +134,10 @@ function Home() {
                                 <div className="skill">
                                     <i className="devicon-amazonwebservices-plain-wordmark"></i>
                                     <div>AWS S3</div>
+                                </div>
+                                <div className="skill">
+                                    <i className="devicon-sqlite-plain"></i>
+                                    <div>SQL</div>
                                 </div>
                             </div>
                         </div>
@@ -151,6 +155,14 @@ function Home() {
                                 <div className="skill">
                                     <i className="devicon-python-plain"></i>
                                     <div>Python</div>
+                                </div>
+                                <div className="skill">
+                                    <i className="devicon-pytorch-original"></i>
+                                    <div>PyTorch</div>
+                                </div>
+                                <div className="skill">
+                                    <i className="devicon-c-plain"></i>
+                                    <div>C</div>
                                 </div>
                                 <div className="skill">
                                     <i className="devicon-linux-plain"></i>
