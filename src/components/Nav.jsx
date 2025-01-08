@@ -14,7 +14,7 @@ function Nav({ closeBurger }) {
                 Contact
             </a>
             <a
-                href="https://drive.google.com/file/d/13Sn5gWwOMLMT0Lm3Zwh4LHTPhrdhgnsE/view?usp=sharing"
+                href="https://drive.google.com/file/d/1-R2-ojEAtGit3S7XXR5e_w5B5dSHgS30/view?usp=sharing"
                 className="navLink"
                 target="_blank"
                 onClick={closeBurger}

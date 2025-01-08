@@ -37,8 +37,8 @@ function Home() {
                                 biomedical engineering and data science, I'm
                                 well acquainted with bringing out solutions to
                                 complex problems. In my free time I enjoy
-                                spending my time outside either hiking or fly
-                                fishing.
+                                spending my time outside either hiking, fly
+                                fishing or photographing wildlife.
                             </p>
                             <a href="#contact" className="aboutLink">
                                 Say Hello
